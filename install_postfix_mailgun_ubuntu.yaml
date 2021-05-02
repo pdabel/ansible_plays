@@ -1,0 +1,7 @@
+---
+- name: Install Mailgun enabled postfix
+  hosts: postfix_mailgun
+  become: true
+
+  roles:
+    - postfix_mailgun
